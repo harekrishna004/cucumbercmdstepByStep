@@ -1,5 +1,6 @@
 Feature: login functionality test
 
+@sanity
 Scenario: check login with valid credentials
 
 Given user is on login page

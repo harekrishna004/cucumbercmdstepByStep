@@ -1,5 +1,6 @@
 Feature: login functionality test
 
+@retest
 Scenario: check login with valid credentials
 
 Given user calculated 1/0

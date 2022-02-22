@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "check login with valid credentials",
         "description": "",
         "id": "login-functionality-test;check-login-with-valid-credentials",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 174241100,
+              "duration": 235305300,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user calculated 1/0",
             "match": {
               "arguments": [
@@ -34,10 +34,10 @@
           },
           {
             "result": {
-              "duration": 24600,
+              "duration": 21200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters valid username and password",
             "match": {
               "location": "LoginSteps.user_enters_valid_username_and_password()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 10000,
+              "duration": 14600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "clicks on login button",
             "match": {
               "location": "LoginSteps.clicks_on_login_button()"
@@ -58,20 +58,26 @@
           },
           {
             "result": {
-              "duration": 8500,
+              "duration": 13800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user is navigated to home page",
             "match": {
               "location": "LoginSteps.user_is_navigated_to_home_page()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@retest"
+          }
         ]
       },
       {
-        "line": 11,
+        "line": 12,
         "name": "check login with invalid credentials",
         "description": "",
         "id": "login-functionality-test;check-login-with-invalid-credentials",
@@ -80,10 +86,10 @@
         "steps": [
           {
             "result": {
-              "duration": 33800,
+              "duration": 26900,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "user is on login page",
             "match": {
               "location": "LoginSteps.user_is_on_login_page()"
@@ -92,10 +98,10 @@
           },
           {
             "result": {
-              "duration": 14900,
+              "duration": 9500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "user enters valid username and password",
             "match": {
               "location": "LoginSteps.user_enters_valid_username_and_password()"
@@ -104,10 +110,10 @@
           },
           {
             "result": {
-              "duration": 10800,
+              "duration": 9700,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "clicks on login button",
             "match": {
               "location": "LoginSteps.clicks_on_login_button()"
@@ -116,10 +122,10 @@
           },
           {
             "result": {
-              "duration": 21300,
+              "duration": 27600,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "error message is displayed invalid credentials",
             "match": {
               "location": "LoginSteps.error_message_is_displayed_invalid_credentials()"
@@ -129,7 +135,7 @@
         ],
         "tags": [
           {
-            "line": 10,
+            "line": 11,
             "name": "@smoke"
           }
         ]
@@ -145,7 +151,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "check login with valid credentials",
         "description": "",
         "id": "login-functionality-test;check-login-with-valid-credentials",
@@ -154,10 +160,10 @@
         "steps": [
           {
             "result": {
-              "duration": 33100,
+              "duration": 26300,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on login page",
             "match": {
               "location": "LoginSteps.user_is_on_login_page()"
@@ -166,10 +172,10 @@
           },
           {
             "result": {
-              "duration": 14500,
+              "duration": 7900,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user enters valid username and password",
             "match": {
               "location": "LoginSteps.user_enters_valid_username_and_password()"
@@ -178,10 +184,10 @@
           },
           {
             "result": {
-              "duration": 24800,
+              "duration": 7400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "clicks on login button",
             "match": {
               "location": "LoginSteps.clicks_on_login_button()"
@@ -190,20 +196,26 @@
           },
           {
             "result": {
-              "duration": 12000,
+              "duration": 6100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user is navigated to home page",
             "match": {
               "location": "LoginSteps.user_is_navigated_to_home_page()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          }
         ]
       },
       {
-        "line": 11,
+        "line": 12,
         "name": "check login with invalid credentials",
         "description": "",
         "id": "login-functionality-test;check-login-with-invalid-credentials",
@@ -212,10 +224,10 @@
         "steps": [
           {
             "result": {
-              "duration": 38100,
+              "duration": 19000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "user is on login page",
             "match": {
               "location": "LoginSteps.user_is_on_login_page()"
@@ -224,10 +236,10 @@
           },
           {
             "result": {
-              "duration": 14600,
+              "duration": 6900,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "user enters valid username and password",
             "match": {
               "location": "LoginSteps.user_enters_valid_username_and_password()"
@@ -236,10 +248,10 @@
           },
           {
             "result": {
-              "duration": 7900,
+              "duration": 7800,
               "status": "passed"
             },
-            "line": 15,
+            "line": 16,
             "name": "clicks on login button",
             "match": {
               "location": "LoginSteps.clicks_on_login_button()"
@@ -248,10 +260,10 @@
           },
           {
             "result": {
-              "duration": 9800,
+              "duration": 6600,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "error message is displayed invalid credentials",
             "match": {
               "location": "LoginSteps.error_message_is_displayed_invalid_credentials()"
@@ -261,7 +273,7 @@
         ],
         "tags": [
           {
-            "line": 10,
+            "line": 11,
             "name": "@smoke"
           }
         ]

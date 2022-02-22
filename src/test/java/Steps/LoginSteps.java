@@ -7,6 +7,8 @@ public class LoginSteps {
 
 	@Given("^user is on login page$")
 	public void user_is_on_login_page() throws Throwable {
+		
+	
 	}
 
 	@When("^user enters valid username and password$")
